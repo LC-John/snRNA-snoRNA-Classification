@@ -4,6 +4,19 @@ What's in the dir 'Dataset'?
 
   original datasets -- *.txt
     snRNA/snoRNA/tRNA/rRNA sequences of human/mouse.
+  
+  final.pkl.gz -- Human snRNA/snoRNA dataset
+  
+  final_m.pkl.gz -- Mouse snRNA/snoRNA dataset
+  
+  final_tr.pkl.gz -- Human rRNA/tRNA dataset
+    Used to pollute snRNA/snoRNA dataset
+    
+  final_m_tr.pkl.gz -- Mouse rRNA/tRNA dataset
+    same as above
+  
+  dirty.pkl.gz -- Human snRNA/snoRNA/trRNA
+    Polluted dataset.
     
 What's in the dir 'Code'?
 
