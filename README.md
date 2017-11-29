@@ -18,6 +18,9 @@ What's in the dir 'Dataset'?
   dirty.pkl.gz -- Human snRNA/snoRNA/trRNA
     Polluted dataset.
     
+  dirty_m.pkl.gz -- Mouse snRNA/snoRNA/trRNA
+    Polluted dataset.
+  
 What's in the dir 'Code'?
 
   saved models (maybe) -- xxx_model_xxx
@@ -34,9 +37,9 @@ What's in the dir 'Code'?
     k-fold CV applied while training, and the k classifiers vote when making predictions.
     use final.pkl.gz or final_m.pkl.gz when running these two scripts.
     
-  dirty_CNN_cv.py -- CNN model with dirty samples
+  dirty_CNN_cv.py dirty_CNN_cv_pred.py -- CNN model with dirty samples
     add a new class, 'none-of-above'.
-    use dirty.pkl.gz when running this script.
+    use dirty.pkl.gz to train, and dirty_m.pkl.gz to test.
   
   plot.py, plot_cv.py -- plot curves
     to plot the learning curves generated when training.
